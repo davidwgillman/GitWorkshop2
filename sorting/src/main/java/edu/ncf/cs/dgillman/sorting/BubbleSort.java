@@ -3,11 +3,11 @@ package edu.ncf.cs.dgillman.sorting;
 import java.util.List;
 import java.lang.Number;
 
-public class BubbleSort<T extends Number> implements Sort<T> {
+public class BubbleSort implements Sort {
 	
-	public List<T> run(List<T> list) {
+	public void run(List<Integer> list) {
 		// TODO stubbed.
-		return list;
+		
 	}
 
 }

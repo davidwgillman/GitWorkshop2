@@ -13,6 +13,6 @@ import java.lang.Number;
  * @author dgillman
  *
  */
-public interface Sort<T extends Number> {
-	List<T> run( List<T> list);
+public interface Sort {
+	void run( List<Integer> list);
 }
